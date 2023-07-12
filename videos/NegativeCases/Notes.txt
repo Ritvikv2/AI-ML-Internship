@@ -1,0 +1,8 @@
+B001 - attempt of physical intrusion
+B002 - planting device (USB) / magstripe reader
+B003 - planting IR camera for recording PIN
+B004 - has a naive user transacting between 50 seconds to 70 seconds : in beginning and end a device is planted and retrieved
+B005 - assisted ATM usage - could be spurious - warning as spin is shared
+B006 - physical assault - men
+B007 - physical assault - on lady with security walking in late
+B008 - shoulder surfing

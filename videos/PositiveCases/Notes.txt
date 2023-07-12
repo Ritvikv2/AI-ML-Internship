@@ -1,0 +1,11 @@
+A001 - vanilla user - male
+A002 - hooded user - male
+A003 - simple user - some distortion in recording
+A004 - Security guy 
+A005 - vanilla user - female - 1
+A006 - vanilla user - female - 2
+A007 - group of three users (mixed) - possibly PIN shared
+A008 - group of users - second person walks in late - possibly PIN shared
+A009 - user with phone call
+A010 - group of users - coming together - possibly PIN shared
+
