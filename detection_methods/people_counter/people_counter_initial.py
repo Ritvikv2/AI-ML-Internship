@@ -63,7 +63,7 @@ else:
 writer = None
 
 # initialize the frame dimensions (we'll set them as soon as we read
-# the first frame from the video)
+# the first frame from the video) - width and height
 W = None
 H = None
 

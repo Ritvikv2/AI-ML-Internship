@@ -14,7 +14,7 @@ import dlib
 import cv2
 import os
 
-
+# green - increase, red - decrease (bank users)
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-p", "--prototxt", required=True,

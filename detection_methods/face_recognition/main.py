@@ -1,6 +1,6 @@
-from recognition import FaceRecognition
-# pip install cmake dlib==19.22
+from recognition import  Face_Recognition
+
 
 if __name__ == '__main__':
-    fr = FaceRecognition()
-    fr.run_recognition()
+      fr = Face_Recognition()
+      fr.run_recognition()  # Run face recognition 

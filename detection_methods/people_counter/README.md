@@ -14,4 +14,4 @@ It takes a video file (`.mp4`). It then analyses and detects the people within t
 2. Then you need to acquire the pretrained weights file and put this file inside the `yolo-coco` folder:    
 `wget https://pjreddie.com/media/files/yolov3.weights`
 3. Run the detector:   
-`python3 detection_methods/people_counter/people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input detection_methods/people_counter/videos/example_01.mp4 --output output/output_02.avi`
+`python3 detection_methods/people_counter/people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input detection_methods/people_counter/B005.mp4 --output output/output_02.av`

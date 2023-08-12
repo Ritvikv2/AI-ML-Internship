@@ -1,19 +1,25 @@
-# Importing modules for gender_age_detection
-from detection_methods.gender_and_age_detection import gender_age_detection
-from detection_methods.gender_and_age_detection import opencv_keras_gender_age_detection
-from detection_methods.image_detection import image_analysis
+import cv2
 
-def main():
-  input = input("Please enter what service you would like to use:")
-  
-  if input == "keras age and gender detection":
-    opencv_keras_gender_age_detection.load_model()
-  elif input == "normal age and gender detection":
-    gender_age_detection.age_gender_detector()
-  elif input == "image analysis example":
-    image_analysis.Image()
-  else: 
-    print("Please restart the application, it is invalid")
+video_capture_0 = cv2.VideoCapture(0)
+video_capture_1 = cv2.VideoCapture(1)
 
-if __name__ == "__main__":
-  main()
+while True:
+    # Capture frame-by-frame
+    ret0, frame0 = video_capture_0.read()
+    ret1, frame1 = video_capture_1.read()
+
+    if (ret0):
+        # Display the resulting frame
+        cv2.imshow('Cam 0', frame0)
+
+    if (ret1):
+        # Display the resulting frame
+        cv2.imshow('Cam 1', frame1)
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# When everything is done, release the capture
+video_capture_0.release()
+video_capture_1.release()
+cv2.destroyAllWindows()
